@@ -1,0 +1,28 @@
+REFERENCE
+“ZKFAITH: Soonami’s Zero-Knowledge Identity Protocol” - By M. Namazi, D. Ross, X. Zhu, and E. Ayday
+“ZKlaims: Privacy-preserving Attribute-based Credentials using Non-interactive Zero-knowledge Techniques”- By M. Schanzenbach, T. Kilian, J. Schütte, and C. Banse
+“Fast IDentity Online with Anonymous Credentials (FIDO-AC)” - By W.-Z. Yeoh, M. Kepkowski, G. Heide, D. Kaafar, and L. Hanzlik
+“Crescent: Stronger Privacy for Existing Credentials”- By  C. Paquin, G.-V. Policharla, and G. Zaverucha
+“A Self-Sovereign Identity Based on Zero-Knowledge Proof and Blockchain”- By M. Dieye, P. Valiorgue, J.-P. Gelas, E.-H. Diallo, P. Ghodous, F. Biennier, and É. Peyrol
+“Self sovereign and blockchain based access control: Supporting attributes privacy with zero knowledge”- By D. Di Francesco Maesa, A. Lisi, P. Mori, L. Ricci, and G. Boschi
+“Bringing data minimization to digital wallets at scale with general-purpose zero-knowledge proofs”- By M. Babel and J. Sedlmeir
+“Zero-Knowledge Proof Framework for Identity Verification and Interoperable Payments on the Decentralized Web”-By K. Chang and O. Seneviratne
+“Crescent: Stronger Privacy for Existing Credentials”- By C. Paquin, G.-V. Policharla, and G. Zaverucha
+“A Self-Sovereign Identity Based on Zero-Knowledge Proof and Blockchain” -By M. Dieye, P. Valiorgue, J.-P. Gelas, E.-H. Diallo, P. Ghodous, F. Biennier, and É. Peyrol
+
+
+| Paper       | Method                      | Dataset               | Limitation                                                 |
+| ----------- | --------------------------- | --------------------- | ---------------------------------------------------------- |
+| **Paper 1** | Self-Sovereign Identity     | Identity credentials  | Revocation and offline verification can be difficult       |
+| **Paper 2** | Blockchain-based Identity   | Digital identity data | Blockchain does not automatically provide complete privacy |
+| **Paper 3** | Zero-Knowledge Proofs       | Credential attributes | Proof generation can require high computing power          |
+| **Paper 4** | ZK-based Access Control     | User credentials      | Complex implementation and cryptographic setup             |
+| **Paper 5** | Privacy-Preserving Identity | Digital credentials   | Practical deployment and scalability remain challenging    |
+
+| Paper        | Method                              | Dataset                | Limitation                                               |
+| ------------ | ----------------------------------- | ---------------------- | -------------------------------------------------------- |
+| **Paper 6**  | Zero-Knowledge based Access Control | User attributes        | Complex proof and verification process                   |
+| **Paper 7**  | Privacy-Preserving Credentials      | Digital credentials    | Requires additional cryptographic components             |
+| **Paper 8**  | Blockchain-based Identity           | Identity records       | Privacy and storage concerns                             |
+| **Paper 9**  | Self-Sovereign Identity             | Verifiable credentials | User adoption and implementation challenges              |
+| **Paper 10** | ZK-based Identity Verification      | Credential data        | Proof generation and system integration can be difficult |

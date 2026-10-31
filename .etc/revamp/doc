@@ -1,0 +1,152 @@
+Project Name:
+AegisID
+
+- need a tagline for the project (in short)
+
+Canva ppt to embed in app (for presenting to funders):
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+    <iframe loading="lazy"
+        style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+        src="https://www.canva.com/design/DAHV0uUzUTk/VxrOSTmpjewLKeCYwgvTtg/view?embed"
+        allowfullscreen="allowfullscreen" allow="fullscreen">
+    </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHV0uUzUTk&#x2F;VxrOSTmpjewLKeCYwgvTtg&#x2F;view?utm_content=DAHV0uUzUTk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+    target="_blank" rel="noopener">Copy of AegisID</a> by Akshit Satti
+
+
+App logo to be added (can download asset)
+https://media.discordapp.net/attachments/1546799671010267257/1547529950351859742/aegisid.png?ex=6ab2ea53&is=6ab198d3&hm=cfe70dea445e9876fc66a995e152e9afd89f294c4318b9350f2fb192729e718d&=&format=webp&quality=lossless
+
+Need UI revamp for only light mode. Smooth UX needed, can use framer, other animation libraries, effects, icons (modern
+libraries)
+
+Project's Abstract:
+Digital identity verification usually requires users to share complete identity documents even when only one fact is
+needed. For example, to prove that a person is above 18, their full date of birth, address, photo and other personal
+details may be shared.
+AegisID is a privacy-preserving digital identity verification system based on Zero-Knowledge Proofs (ZKP) and
+blockchain. It allows users to prove a required fact without sharing the complete identity document.
+The Zero-Knowledge Proof is created directly on the user's device. The user's private information and private keys stay
+on the device and are not sent to the verifier. The system uses technologies such as zk-SNARK, Groth16, Poseidon, Circom
+and blockchain smart contracts.
+AegisID can be used for bank account opening, credit checks, hotel or SIM verification, tax and compliance checks, and
+government benefit services.
+The expected result is a faster and more privacy-friendly identity verification process where the user shares only the
+required proof instead of the complete identity information.
+
+Existing Problems:
+Users often have to share their complete identity documents even when only one piece of information is required.
+This can expose private details such as date of birth, address, photo and ID number.
+Storing large amounts of identity information in one central database creates a major security risk.
+Traditional Video-KYC can take a long time and may require users to wait for a verification agent.
+Repeated identity verification creates extra time, cost and effort for both users and companies.
+
+Need:
+Verify a person's required information without sharing the complete identity document.
+Reduce the amount of personal information shared during verification.
+Make identity verification faster and more secure.
+
+Target:
+Citizens
+Banks and FinTech companies
+DeFi and blockchain platforms
+Government services
+
+Scope:
+AegisID focuses on privacy-preserving identity verification using Zero-Knowledge Proofs and blockchain technology.
+
+Objectives:
+To develop a privacy-preserving digital identity verification system using Zero-Knowledge Proofs.
+To allow users to prove specific information without sharing their complete identity document.
+To create Zero-Knowledge Proofs directly on the user's device.
+To keep the user's private keys and personal information on the user's device.
+To use blockchain and smart contracts for secure proof verification.
+To make identity verification faster, simpler and more secure.
+To support identity and compliance checks without unnecessary sharing of personal information.
+
+TechStack:
+
+- Programming Language
+JavaScript
+Solidity
+Circom
+
+- Frontend
+React 18
+Vite
+Tailwind CSS
+Framer Motion
+
+- Zero-Knowledge Technologies
+zk-SNARK
+Groth16
+Circom
+Poseidon
+BabyJubjub
+EdDSA
+BN254
+
+- Blockchain
+Ethereum / EVM
+Solidity Smart Contracts
+ethers.js
+
+- Storage & Security
+IndexedDB
+WebCrypto
+Sparse Merkle Tree
+Local encrypted storage
+
+- Hardware / Software
+User's computer or smartphone
+Modern web browser
+Local device processing
+DatasetDigitally signed identity credentials / test identity data
+
+
+- Workflow
+1. Trusted Issuer
+↓
+Government / Trusted Organization
+→ Issues digitally signed identity credential
+
+2. User's Local Vault
+↓
+Credential is securely stored on the user's device
+
+3. Verification Request
+↓
+Service Provider requests a specific fact
+Example: "Is the person Age ≥ 18?"
+
+4. Client-Side ZK Prover
+↓
+User's device generates a Zero-Knowledge Proof
+→ Private identity data remains hidden
+
+5. ZK-SNARK Proof Generation
+↓
+Groth16 + Poseidon
+→ Generates the cryptographic proof
+
+6. Blockchain / Smart Contract Verification
+↓
+Smart Contract:
+→ Verifies the ZK-SNARK proof
+→ Checks credential validity
+→ Checks revocation information
+
+7. Verification Result
+↓
+Verifier receives:
+TRUE / FALSE
+→ No complete identity document is revealed
+
+Example:
+Input: Date of Birth
+Query: "Is the person 18 or older?"
+Output: TRUE
+→ Exact Date of Birth remains private
